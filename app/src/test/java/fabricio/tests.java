@@ -1,4 +1,4 @@
-package dsaavedra;
+package fabricio;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.Test;
@@ -19,7 +19,7 @@ public class tests {
 
         Thread.sleep(5000);
 
-        //driver.close();
+        driver.close();
 
     }
 
@@ -33,7 +33,7 @@ public class tests {
 
         Thread.sleep(5000);
 
-        //driver.close();
+        driver.close();
 
     }
 }
